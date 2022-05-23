@@ -1,0 +1,10 @@
+
+result = IndexError
+def divider(a, b):
+    if a < b:
+        raise ValueError
+    if b > 100:
+        raise IndexError
+    return a/b
+
+print(result)
